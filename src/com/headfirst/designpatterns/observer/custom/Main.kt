@@ -21,5 +21,4 @@ fun main(args:Array<String>){
     weatherStation.setMeasurements(80f, 65f, 30.4f)
     weatherStation.setMeasurements(82f, 70f, 29.2f)
     weatherStation.setMeasurements(78f, 90f, 39.2f)
-
 }
