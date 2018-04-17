@@ -3,14 +3,16 @@
  * @author: vikas.naidu
  */
 
-package com.headfirst.designpatterns.factory.pizzast
+package com.headfirst.designpatterns.factory.pizzaingredients
+
+import com.headfirst.designpatterns.factory.pizzaingredients.pizza.Pizza
 
 abstract class PizzaStore() {
     fun orderPizza(type:String): Pizza {
         val pizza:Pizza?
         pizza = createPizza(type)
-
-        pizza!!.prepare()
+        println("Making " + pizza!!.name)
+        pizza.prepare()
         pizza.bake()
         pizza.cut()
         pizza.box()
