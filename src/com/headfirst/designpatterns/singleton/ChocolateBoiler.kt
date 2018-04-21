@@ -9,10 +9,12 @@ class ChocolateBoiler {
     private  var empty:Boolean
     private var boiled:Boolean
 
+    //helps us to create one object of current class
     companion object {
      val instance:ChocolateBoiler by lazy { ChocolateBoiler() }
     }
 
+    //making constructor private doesn't allow to create an instance.
     private constructor(){
         println("ChocolateBoiler initialized")
         empty = true
