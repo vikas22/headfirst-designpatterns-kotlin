@@ -8,6 +8,7 @@ package com.headfirst.designpatterns.command
 import com.headfirst.designpatterns.command.cmds.Command
 import com.headfirst.designpatterns.command.devices.*
 
+
 fun main(args:Array<String>){
     println("Command pattern")
 
@@ -133,6 +134,7 @@ fun main(args:Array<String>){
             }
     )
 
+    println(remoteControl)
 
     remoteControl.buttonOnWasPushed(0)
     remoteControl.buttonOnWasPushed(1)
@@ -146,6 +148,7 @@ fun main(args:Array<String>){
     remoteControl.buttonOffWasPushed(2)
     remoteControl.buttonOffWasPushed(3)
     remoteControl.buttonOffWasPushed(4)
+
 
 
 
