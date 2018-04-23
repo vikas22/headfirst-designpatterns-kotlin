@@ -14,3 +14,5 @@ Implementation of design patterns from headfirst design patterns book using Kotl
      2. [Factory method extended](https://github.com/vikas22/headfirst-designpatterns-kotlin/tree/master/src/com/headfirst/designpatterns/factory/pizzast)
      2. [Abstract Factory method](https://github.com/vikas22/headfirst-designpatterns-kotlin/tree/master/src/com/headfirst/designpatterns/factory/pizzaingredients)
 5. [Singleton pattern](https://github.com/vikas22/headfirst-designpatterns-kotlin/tree/master/src/com/headfirst/designpatterns/singleton)
+6. [Command pattern](https://github.com/vikas22/headfirst-designpatterns-kotlin/tree/master/src/com/headfirst/designpatterns/command)
+    1. [Lambda](https://github.com/vikas22/headfirst-designpatterns-kotlin/tree/master/src/com/headfirst/designpatterns/command/Main4.kt)
